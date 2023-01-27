@@ -12,7 +12,7 @@ const Service = ({ img, title, description }) => {
                     <h5 class="card-title my-2">{title}</h5>
                 </div>
                 <div className="card-description-content">
-                    <p class="card-text">{description}</p>
+                    <p class="card-text secondary">{description}</p>
                 </div>
             </div>
         </div>

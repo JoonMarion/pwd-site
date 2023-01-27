@@ -85,7 +85,7 @@ textarea:focus {
 
 /* CSS */
 .button-40 {
-    background-color: #111827;
+    background-color: #7d2a34;
     border: 1px solid transparent;
     border-radius: 0.75rem;
     box-sizing: border-box;
@@ -137,11 +137,21 @@ textarea:focus {
 
 .contacts-square {
     width: 50%;
-    height: 400px;
-    border-radius: 0 2rem 0 0;
+    height: 420px;
+    border-radius: 0 0.5rem 0 0;
     background-color: #fc566a;
     position: absolute;
     bottom: 0;
     left: 0;
     z-index: -1;
+}
+
+.contacts-background {
+    width: 100vw;
+    height: 400px;
+    background-color: #3d151a;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
 }

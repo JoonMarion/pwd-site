@@ -1,12 +1,12 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
 import Service from '../service/Service';
-import SiteAndSoftware from '../../assets/site.jpg';
-import Cabeamento from '../../assets/cabeamento.jpg';
-import DHCP from '../../assets/dhcp.jpg';
-import Sistemas from '../../assets/sistemas.jpg';
-import Servidores from '../../assets/servidores.jpg';
-import RedeSemFio from '../../assets/rede-sem-fio.jpg';
+import SiteAndSoftware from '../../assets/notebook.png';
+import Cabeamento from '../../assets/Ethernet.png';
+import DHCP from '../../assets/DHCP.png';
+import Sistemas from '../../assets/Implantacao.png';
+import Servidores from '../../assets/servidor.png';
+import RedeSemFio from '../../assets/router.png';
 import './Services.css';
 
 const Services = () => {

@@ -146,6 +146,7 @@ const Contacts = () => {
             <div className="square-container">
                 {' '}
                 <div className="contacts-square"></div>
+                <div className="contacts-background"></div>
             </div>
         </>
     );
