@@ -1,0 +1,15 @@
+.secondary {
+    color: #b7cccf;
+}
+
+.content-title {
+    margin: 3rem;
+}
+
+.container {
+    max-width: 900px;
+}
+
+.link-hover:hover {
+    color: #fc566a;
+}
