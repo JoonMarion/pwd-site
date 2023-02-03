@@ -8,7 +8,7 @@
 
 .main-content::before {
     content: '';
-    background-image: url('../../assets/background-main.jpg');
+    /* background-image: url('../../assets/background-main.jpg'); */
     background-size: cover;
     position: absolute;
     background-attachment: fixed;
@@ -34,10 +34,6 @@
     font-size: 2rem;
 }
 
-.pwd-name {
-    font-size: 2rem;
-}
-
 .dot-animate {
     animation: animate 1s linear infinite;
 }
@@ -57,11 +53,11 @@
 .pwd-title {
     font-family: Petch, sans-serif;
     font-weight: 500;
+    display: flex;
 }
 
 h1,
 h2 {
     position: relative;
     color: #ffffff;
-    text-align: center;
 }

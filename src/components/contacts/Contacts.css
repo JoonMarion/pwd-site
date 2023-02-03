@@ -19,7 +19,7 @@
 .form-style {
     border: none;
     height: 4rem;
-    background-color: #7d2a34;
+    background-color: #97b2de;
     border-radius: 0.75rem;
 }
 
@@ -31,7 +31,7 @@
 .form-content {
     display: flex;
     flex-direction: column;
-    background-color: #7d2a34;
+    background-color: #97b2de;
     margin: 0.5rem 0;
     border-radius: 0.75rem;
 }
@@ -51,7 +51,7 @@
 .form-button {
     width: 50%;
     transition: 0.3s;
-    background-color: #4da7fa;
+    background-color: #97b2de;
 }
 
 .form-button:hover {
@@ -85,7 +85,7 @@ textarea:focus {
 
 /* CSS */
 .button-40 {
-    background-color: #7d2a34;
+    background-color: #97b2de;
     border: 1px solid transparent;
     border-radius: 0.75rem;
     box-sizing: border-box;
@@ -139,7 +139,7 @@ textarea:focus {
     width: 50%;
     height: 420px;
     border-radius: 0 0.5rem 0 0;
-    background-color: #fc566a;
+    background-color: #7489ab;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -149,7 +149,7 @@ textarea:focus {
 .contacts-background {
     width: 100vw;
     height: 400px;
-    background-color: #3d151a;
+    background-color: #97b2de;
     position: absolute;
     bottom: 0;
     left: 0;

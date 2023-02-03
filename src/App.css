@@ -1,6 +1,7 @@
 .primary {
     color: #33417d;
 }
+
 .secondary {
     color: #b7cccf;
 }
@@ -13,6 +14,10 @@
     max-width: 900px;
 }
 
-.link-hover:hover {
+.link-hover:hover p {
+    color: #fc566a;
+}
+
+.link-hover:hover a {
     color: #fc566a;
 }

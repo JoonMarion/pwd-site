@@ -11,7 +11,7 @@ import './Services.css';
 
 const Services = () => {
     return (
-        <div className="services-content" id="services">
+        <div className="services-content">
             <h1 className="content-title">Serviços</h1>
             <div class="services-wrapper">
                 <Service
@@ -22,7 +22,7 @@ const Services = () => {
                 <Service
                     img={Cabeamento}
                     title="Cabeamento Estruturado"
-                    description="Instalamos e configuramos o cabeamento estruturado da sua empresa."
+                    description="Instalamos e configuramos o cabeamento da sua empresa."
                 />
                 <Service
                     img={DHCP}

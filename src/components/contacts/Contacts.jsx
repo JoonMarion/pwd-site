@@ -75,58 +75,46 @@ const Contacts = () => {
                         <div className="col-md-6">
                             <div className="contacts-info">
                                 <h4 className="contact-content">Links</h4>
-                                <div>
-                                    <p className="contact-content link-hover">
+                                <div className="link-hover">
+                                    <p className="contact-content">
                                         <AiOutlineWhatsApp size={19} />
                                         &nbsp;
                                         <a
                                             href="https://wa.me/5591992608732?text=Ol%C3%A1%2C+gostaria+de+fazer+um+or%C3%A7amento%21"
                                             target="_blank"
                                             rel="noreferrer"
-                                            className="link-hover"
                                         >
                                             (91) 99260-8732
                                         </a>
                                     </p>
                                 </div>
-                                <div>
-                                    <p className="contact-content link-hover">
+                                <div className="link-hover">
+                                    <p className="contact-content">
                                         <GrMail size={19} />
                                         &nbsp;
                                         <a
                                             href="mailto:tecnologia.pwd@gmail.com?subject=Hello%20again"
                                             target="_blank"
                                             rel="noreferrer"
-                                            className="link-hover"
                                         >
                                             tecnologia.pwd@gmail.com
                                         </a>
                                     </p>
                                 </div>
-                                <div>
-                                    <p className="contact-content link-hover">
+                                <div className="link-hover">
+                                    <p className="contact-content">
                                         <SiTelegram size={19} />
                                         &nbsp;
-                                        <a
-                                            href="https://t.me/JoonMarion"
-                                            className="link-hover"
-                                            target="_blank"
-                                            rel="noreferrer"
-                                        >
+                                        <a href="/" target="_blank" rel="noreferrer">
                                             t.me/pwd.tecnologia
                                         </a>
                                     </p>
                                 </div>
-                                <div>
-                                    <p className="contact-content d-flex align-items-center link-hover">
+                                <div className="link-hover">
+                                    <p className="contact-content d-flex align-items-center">
                                         <SiLinktree size={19} />
                                         &nbsp;
-                                        <a
-                                            href="https://linktr.ee/pwd_tec"
-                                            className="link-hover"
-                                            target="_blank"
-                                            rel="noreferrer"
-                                        >
+                                        <a href="https://linktr.ee/pwd_tec" target="_blank" rel="noreferrer">
                                             Linktree
                                         </a>
                                     </p>
