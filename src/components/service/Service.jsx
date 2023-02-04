@@ -1,21 +1,18 @@
 import React from 'react';
-import './Service.css';
+import { ServiceCard, CardBody } from './styles';
 
-const Service = ({ img, title, description }) => {
+const Service = ({ img, title, description, className }) => {
     return (
-        <div class="card h-100">
-            <div class="card-body">
+        <ServiceCard className={`${className}`}>
+            <CardBody>
                 <div className="card-image-content">
-                    <img class="rounded img-fluid card-image" src={img} alt={title} />
+                    <img src={img} alt={title} />
                 </div>
                 <div className="card-title-content">
-                    <h5 class="card-title my-2">{title}</h5>
+                    <h3>{title}</h3>
                 </div>
-                <div className="card-description-content">
-                    <p class="card-text secondary">{description}</p>
-                </div>
-            </div>
-        </div>
+            </CardBody>
+        </ServiceCard>
     );
 };
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from './style';
+import { Container } from './styles';
 import { RiMenu3Fill } from 'react-icons/ri';
 
 export function Navbar({ setMenuIsVisible }) {

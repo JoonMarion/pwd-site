@@ -14,8 +14,8 @@ function App() {
             <MenuMobile menuIsVisible={menuIsVisible} setMenuIsVisible={setMenuIsVisible} />
             <Navbar setMenuIsVisible={setMenuIsVisible} />
 
-            <CardContent />
-            <div className="container">
+            <div className="main-container">
+                <CardContent />
                 <Services />
             </div>
             <Contacts />

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.header`
     width: 100vw;
     height: 5rem;
-    background: rgba(4, 6, 17, 0.8);
+    background: rgba(78, 81, 97, 0.8);
     display: flex;
     align-items: center;
     justify-content: center;
